@@ -80,7 +80,7 @@ def main():
     # 初始化 session_state
     if "vlm_config_snapshot" not in st.session_state:
         st.session_state.vlm_config_snapshot = VLMConfig(
-            api_base="http://192.168.66.13:11434/v1",
+            api_base="http://192.168.11.20:11434/v1",
             api_key="",
             model="moondream:latest",
             prompt="Describe the scene in details.",
