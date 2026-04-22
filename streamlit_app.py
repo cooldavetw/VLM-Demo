@@ -82,7 +82,7 @@ def main():
         st.session_state.vlm_config_snapshot = VLMConfig(
             api_base="http://192.168.66.26:40960/v1",
             api_key="",
-            model="qwen3-vl:latest",
+            model="vlm",
             prompt="Describe the scene in details in traditional chinese.",
             max_tokens=300,
         )
